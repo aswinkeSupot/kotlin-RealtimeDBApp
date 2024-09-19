@@ -98,8 +98,8 @@ Method 2 :
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
-
-
+#
+#
 # 2. Realtime Database
 > **Reference URL -** https://console.firebase.google.com/project/kotlin-firebaseapp/overview
 ```
@@ -124,7 +124,8 @@ dependencies {
     implementation("com.google.firebase:firebase-database")
 }
 ```
-
+#
+#
 # 3. Kotlin codding
 ### 1. Get a DatabaseReference to Activity.
 > **Reference URL -**  https://firebase.google.com/docs/database/android/read-and-write?hl=en&authuser=0#kotlin+ktx
@@ -210,7 +211,7 @@ FATAL EXCEPTION: main
       com.google.firebase.database.DatabaseException: Class com.aswin.firebaseapp.User does not define a no-argument constructor. If you are using ProGuard, make sure these constructors are not stripped.
 ```
 ```
-This may cause because we miss initialize a black value for the field in the Object Data class
+This may cause because we miss initialize a blank value for the field in the Object Data class
 data class User(val userName: String = "",
                 val password: String = "")
 ```
