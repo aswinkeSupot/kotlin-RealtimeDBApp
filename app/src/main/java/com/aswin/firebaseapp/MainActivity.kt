@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         //CreateCustomObject()
 
         /**Read Custom Object from Firebase RealTime Database**/
-        //ReadCustomObject()
+        ReadCustomObject()
 
     }
     /**Write Simple Data to Firebase RealTime Database**/
